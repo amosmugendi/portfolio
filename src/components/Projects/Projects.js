@@ -2,11 +2,11 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import leaf from "../../Assets/Projects/leaf.png";
-import emotion from "../../Assets/Projects/emotion.png";
-import editor from "../../Assets/Projects/codeEditor.png";
-import chatify from "../../Assets/Projects/chatify.png";
-import suicide from "../../Assets/Projects/suicide.png";
+import Student from "../../Assets/Projects/Student.png";
+import movies from "../../Assets/Projects/movies.png";
+import Tain from "../../Assets/Projects/Tain.png";
+import pos from "../../Assets/Projects/pos.png";
+import portfolio from "../../Assets/Projects/portfolio.png";
 import bitsOfCode from "../../Assets/Projects/blog.png";
 
 function Projects() {
@@ -23,10 +23,10 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={chatify}
+              imgPath={pos}
               isBlog={false}
               title="POS"
-              description="Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Material-UI, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages."
+              description="A robust Point of Sale (POS) system built with React.js, Node.js, and MongoDB to streamline sales and inventory management. It features real-time product tracking, receipt generation, multi-payment support, and analytics dashboards for sales insights. With an intuitive Material-UI interface and secure role-based access, it ensures efficiency and reliability for retail businesses."
               ghLink="https://github.com/amosmugendi/POS---frontend"
               demoLink="http://syknown.tech/app/pos"
             />
@@ -45,46 +45,45 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={editor}
+              imgPath={Tain}
               isBlog={false}
-              title="Editor.io"
-              description="Online code and markdown editor build with react.js. Online Editor which supports html, css, and js code with instant view of website. Online markdown editor for building README file which supports GFM, Custom Html tags with toolbar and instant preview.Both the editor supports auto save of work using Local Storage"
-              ghLink="https://github.com/soumyajit4419/Editor.io"
-              demoLink="https://editor.soumya-jit.tech/"              
+              title="Train Booking System"
+              description="A seamless Train Booking System built with React.js, Flask, and SQLite, designed to simplify ticket reservations and user management. It allows users to book trains, view schedules, manage profiles, and access ticket details, with secure authentication using JWT. Featuring a user-friendly interface and real-time updates, it ensures convenience and efficiency for passengers and operators alike."
+              ghLink="https://github.com/amosmugendi/TRAIN-BOOKING-SYSTEM"
+              demoLink=""              
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={leaf}
+              imgPath={Student}
               isBlog={false}
-              title="Plant AI"
-              description="Used the plant disease dataset from Kaggle and trained a image classifer model using 'PyTorch' framework using CNN and Transfer Learning with 38 classes of various plant leaves. The model was successfully able to detect diseased and healthy leaves of 14 unique plants. I was able to achieve an accuracy of 98% by using Resnet34 pretrained model."
-              ghLink="https://github.com/soumyajit4419/Plant_AI"
-              demoLink="https://plant49-ai.herokuapp.com/"
+              title="Student Portal API"
+              description="A feature-rich Student Portal API built with the Django framework, designed to manage student profiles, courses, and grades efficiently. It provides secure authentication, role-based access for admins and students, and endpoints for real-time data retrieval and updates. With robust relational models and RESTful API design, it ensures seamless integration with frontend systems while maintaining scalability and performance."
+              ghLink="https://github.com/amosmugendi/Student_Portal_API"
+              demoLink=""
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={suicide}
+              imgPath={portfolio}
               isBlog={false}
-              title="Ai For Social Good"
-              description="Using 'Natural Launguage Processing' for the detection of suicide-related posts and user's suicide ideation in cyberspace  and thus helping in sucide prevention."
-              ghLink="https://github.com/soumyajit4419/AI_For_Social_Good"
-              // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
+              title="gito_nga Portfolio"
+              description="A modern and responsive personal portfolio built with Next.js, showcasing projects, skills, and experiences. It features dynamic routing, server-side rendering for optimal performance, and a sleek, user-friendly design. Optimized for SEO, it provides a seamless browsing experience while highlighting professional achievements and capabilities."
+              ghLink=""
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={emotion}
+              imgPath={movies}
               isBlog={false}
-              title="Face Recognition and Emotion Detection"
-              description="Trained a CNN classifier using 'FER-2013 dataset' with Keras and tensorflow backened. The classifier sucessfully predicted the various types of emotions of human. And the highest accuracy obtained with the model was 60.1%.
-              Then used Open-CV to detect the face in an image and then pass the face to the classifer to predict the emotion of a person."
-              ghLink="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
-              // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
+              title="Movie Database"
+              description=" A Movie Database web app that lets users create a personalized 'To-Watch' list by favoriting movies they love. Built with React.js and integrated with a RESTful API, it provides seamless movie browsing, search functionality, and real-time updates to the favorites list. With an intuitive interface and smooth performance, it offers a convenient way to organize and track must-watch movies."
+              ghLink="https://github.com/amosmugendi/movie_app"
+              demoLink="https://velvety-gnome-2e028c.netlify.app/"
+             
             />
           </Col>
         </Row>
