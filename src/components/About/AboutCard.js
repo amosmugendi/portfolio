@@ -11,7 +11,7 @@ function AboutCard() {
             Hi Everyone, I am <span className="purple">Amos Mugendi </span>
             from <span className="purple"> Nairobi, Kenya.</span>
             <br />
-            I am currently employed as a software developer at Juspay.
+            I am currently employed as a software developer at Syknown Technologies.
             <br />
             I have completed a Bachelors Degree in Computer Science at the Catholic University of Eastern Africa.
             I also have a certification in Software Engineering from Moringa School.
